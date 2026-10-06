@@ -26,6 +26,7 @@ const songs = [
     title: 'মনের বৃষ্টি',
     genre: 'Acoustic',
     price: 79,
+    buylink: '/https://rzp.io/rzp/fvW3A1Pp',
     cover: '/images/moner-bristi.jpg', 
     audio: '/music/moner-bristi.mp3',
     description: 'বৃষ্টিভেজা স্মৃতি আর নীরব অনুভূতির acoustic গল্প।'
