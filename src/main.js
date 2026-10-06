@@ -233,7 +233,12 @@ function openBuy(id) {
 }
 document.querySelector('#closeModal').onclick = () => modal.classList.add('hidden');
 modal.addEventListener('click', e => { if (e.target === modal) modal.classList.add('hidden'); });
-document.querySelector('#checkoutBtn').onclick = () => showToast('Payment gateway এখনও connect করা হয়নি — নিচের setup guide অনুসরণ করুন।');
+document.querySelector('#checkoutBtn').onclick = () => {
+    const song = songs.find(s => s.id === document.querySelector('#checkoutBtn').dataset.song);
+    if (song && song.buyLink) {
+        window.location.href = song.buyLink;
+    }
+};
 
 async function shareSong(id) {
   const song = songs.find(s => s.id === id);
