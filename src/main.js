@@ -6,6 +6,7 @@ const songs = [
     title: 'তুমি এলে নীরব হৃদয়',
     genre: 'Bengali Romantic',
     price: 99,
+    buyLink: https://rzp.io/rzp/NyICVqJg
     cover: '/images/tumi-ele-nirob-hridoy.jpg',
     audio: '/music/tumi-ele-nirob-hridoy.mp3',
     description: 'ভোরের কুয়াশা, নদীর পাড় আর ফিরে পাওয়া ভালোবাসার এক নরম গল্প।'
