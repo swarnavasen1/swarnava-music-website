@@ -16,6 +16,7 @@ const songs = [
     title: 'নতুন সকাল',
     genre: 'Hopeful Bengali',
     price: 79,
+    buyLink: 'https://rzp.io/rzp/NyICVqJg', 
     cover: '/images/song-placeholder.jpg',
     audio: '/music/notun-sokal.mp3',
     description: 'অন্ধকার পেরিয়ে নতুন দিনের আশার গান।'
